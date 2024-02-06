@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.stock{
+    border: thin solid red;
+    width: 100px;
+    padding: 10px;
+    margin: 5px;
+    
+}

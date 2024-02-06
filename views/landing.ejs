@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+
+    <link rel="stylesheet" href="ui.css">
+
+
+</head>
+<body>
+
+    <h1>
+        Products
+    </h1>
+
+    <h2>
+        Welcome <%= data %> would you like 
+    </h2>
+
+    <div class="stock">
+        <% stock.forEach(element => { %>
+            <%= element.name %>
+        <% }); %>
+    </div>
+
+    <div>
+        this is extra data.
+    </div>
+
+    <footer>
+        company info
+    </footer>
+    
+</body>
+</html>
